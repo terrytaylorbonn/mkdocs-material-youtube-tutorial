@@ -2,7 +2,9 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Code Annotation Examples v4
+## Code Annotation Examples v5
+
+TERRY: Simple example of what's possible.
 
 ### Codeblocks
 
@@ -37,7 +39,7 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-#### With line numbers (no line numbers)
+#### With line numbers
 
 ``` py linenums="1"
 def bubble_sort(items):
@@ -47,7 +49,7 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
-#### Highlighting lines (doesnt work)
+#### Highlighting lines
 
 ``` py hl_lines="2 3"
 def bubble_sort(items):
@@ -56,7 +58,7 @@ def bubble_sort(items):
             if items[j] > items[j + 1]:
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
-
+<!---
 ## Icons and Emojs (dont work)
 
 :smile: 
@@ -66,3 +68,4 @@ def bubble_sort(items):
 :fontawesome-brands-twitter:{ .twitter }
 
 :octicons-heart-fill-24:{ .heart }
+--->
