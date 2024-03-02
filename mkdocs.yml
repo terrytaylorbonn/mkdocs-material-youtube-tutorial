@@ -1,5 +1,5 @@
 site_name: MkDocs YouTube Tutorial
-site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+site_url: https://terrytaylorbonn.github.io/mkdocs-material-youtube-tutorial/
 theme:
   name: material
   features:
@@ -37,6 +37,23 @@ extra:
       link: https://www.linkedin.com/in/willettjames/
 
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+#  - pymdownx.emoji: 
+#      emoji_index: materialx.emoji.twemoji
+#      emoji_generator: materialx.emoji.to_svg
+
 
 copyright: |
-  &copy; 2023 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>
+  &copy; 2023 <a href="https://github.com/tt"  target="_blank" rel="noopener">tt</a>
